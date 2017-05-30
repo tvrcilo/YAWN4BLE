@@ -53,7 +53,7 @@ void main(void)
     ANSELA = 0; 
     ANSELC = 0;
     ANSELB = 0;
- 
+    // nu kako lijepi komentarcic.
     // enable BLE HM-11 module
     TRISAbits.TRISA5 = 0;           //IRQ output, pin to drive pMOS
     LATAbits.LATA5 = 0;             // turn on pMOS, turn on BLE module
